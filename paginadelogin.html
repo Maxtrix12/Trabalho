@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="PGLOGIN.css">
-    <link rel="icon" type="image/jpeg" href="th.jpeg" >
+    <link rel="icon" type="image/jpeg" href="/img/th.jpeg" >
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     
-    <title>Audi Manaus</title>
+    <title>Hyper car</title>
 </head>
 <body>
-    <div class="frame">
+    <div class="frame" id="loginContainer">
             <div class="login">Login</div>
-            <div class="Usuarrio">
-                <input type="text" placeholder="Username">
+
+            
+            <div class="Usuario">
+                <input type="text" placeholder="Username" id="usuario">
                 <i class='bx bxs-user'></i>
             </div>
     
             <div class="password">
-                <input type="password"  placeholder="Password">
+                <input type="password"  placeholder="Password" id="senha" >
                 <i class='bx bxs-lock-alt'></i>
+                
             </div>
             <div class="remember_forgot">
                 <div class="remember">
@@ -28,8 +31,11 @@
              </div>
               <div class="forgot"><a href="#">Esqueceu a Senha?</a></div>
         </div>
-        <button  class="log"  onclick="handleLogin()"><a href="FUEGE.html">Login</a></button>
-        <div class="reg">Ainda não tem uma conta?<a href="#">Registrar</a></div>        
+        <button  class="log"  onclick="handleLogin(), logar(); return false, logar2(); return false"><a href="#">Login</a></button>
+        
+        <div class="reg">Ainda não tem uma conta?<a href="#">Registrar</a></div>     
+        
+        
     </div>
 
         <script src="PGlogin.js"></script>

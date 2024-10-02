@@ -14,11 +14,12 @@ a:hover{
 }
 
 .logo{
-    width: 70px;
-    height: 50px;
-    background: url(logo.jpeg);
+    width: 110px;
+    height: 80px;
+    background: url(/img/rectangular_logo.png);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: -18px;
 }
 
 .nav-bar{

@@ -13,10 +13,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(bg.png);
+    background: url(/img/2051165.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center ;
+    
     
 }
 
@@ -54,7 +55,7 @@ body::before{
 }
 
 
-.Usuarrio, .password{
+.Usuario, .password{
     width: 95%;
     height: auto;
     display: flex;
@@ -65,7 +66,7 @@ body::before{
 
 }
 
-.Usuarrio input, .password input{
+.Usuario input, .password input{
 
     padding: 8px 8px 8px 15px;
     background: transparent;
@@ -79,18 +80,20 @@ body::before{
 
 }
 
-.Usuarrio input::placeholder, .password input::placeholder{
+.Usuario input::placeholder, .password input::placeholder{
 
     color: white;
 
 }
 
-.Usuarrio i, .password i{
+.Usuario i, .password i{
 
     position: absolute;
     margin-right: 9px;
 
 }
+
+
 
 .remember_forgot{
     height: auto;
