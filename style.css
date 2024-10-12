@@ -218,7 +218,88 @@ display: block;
 
 }
 
+.main_content {
 
+width: 100%;
+display: grid;
+grid-template-columns: repeat(3,2fr);
+gap: 20px;
+padding: 30px;
+
+}
+
+.main_content .content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.main_content .content h1{
+font-size: 52px;
+letter-spacing: 2px;
+
+} .main_content .car_img {
+
+width: 200%;
+height: 600px;
+background: url(/img/BMW_330i_M_Sport_G20_2019_White_background_Blue_580476_3840x2400.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.banner{
+
+    background: linear-gradient(to right, yellow, orange);
+    position: relative;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: arial, sans-sarif;
+}
+
+.text{
+
+    position: relative;
+    z-index: 1;
+    text-align: center;
+
+
+}
+.text p {
+
+    color: black;
+    font-size: 24px;
+    margin: 0;
+}
+
+.text button {
+
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 25px;
+
+}
+
+
+ .ofertas h2{
+    
+    text-align: center;
+    margin-top: 30px;
+
+ }
+
+ 
 
 
 
