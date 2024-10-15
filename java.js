@@ -51,3 +51,10 @@ const mobileNavbar = new MobileNavbar(
 );
 mobileNavbar.init();
 
+VanillaTilt.init(document.querySelectorAll(".carro"), {
+    max: 25,
+    speed: 400,
+    glare:true,
+    "max-glare": 0.5
+});
+
