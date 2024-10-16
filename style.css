@@ -308,6 +308,8 @@ background-size: cover;
     justify-content: center;
 
     transform-style: preserve-3d;
+
+    flex-wrap: wrap;
 }
 
 .card .carro{
@@ -379,3 +381,49 @@ transform: translate3d(0,0,100px);
 }
 
 
+.rodape {
+    background-color: #2C2C2C;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+}
+
+.rodape div{
+    margin: 10px;
+    justify-content: center;
+    
+    
+}
+
+.rodape h3{
+    margin-bottom: 10px;
+    
+}
+
+.rodape p, .rodape a{
+
+color: #fff;
+text-decoration: none;
+margin-bottom: 7px;
+
+
+}
+
+.rodape a:hover{
+    text-decoration: underline;
+   
+}
+
+.social-icons img{
+
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+}
